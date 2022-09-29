@@ -1,0 +1,12 @@
+{
+  "maven.excludedFolders": [
+
+    "**/.*",
+    "**/node_modules",
+    "**/target",
+    "**/bin",
+    "**/archetype-resources"
+  ],
+  "java.configuration.maven.userSettings": "D:\\Downloads\\apache-maven-3.8.6\\conf\\settings.xml",
+  "maven.executable.path": "D:\\Downloads\\apache-maven-3.8.6\\bin\\mvn.cmd",
+}
