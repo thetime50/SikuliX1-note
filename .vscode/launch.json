@@ -1,0 +1,56 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch guide.Run",
+      "request": "launch",
+      "mainClass": "org.sikuli.guide.Run",
+      "projectName": "sikulixapi"
+    },
+    {
+      "type": "java",
+      "name": "Launch script.Sikulix",
+      "request": "launch",
+      "mainClass": "org.sikuli.script.Sikulix",
+      "projectName": "sikulixapi"
+    },
+    {
+      "type": "java",
+      "name": "Launch Crawler",
+      "request": "launch",
+      "mainClass": "org.sikuli.util.Crawler",
+      "projectName": "sikulixapi"
+    },
+    {
+      "type": "java",
+      "name": "Launch util.Run",
+      "request": "launch",
+      "mainClass": "org.sikuli.util.Run",
+      "projectName": "sikulixapi"
+    },
+    {
+      "type": "java",
+      "name": "Launch ide.Sikulix",
+      "request": "launch",
+      "mainClass": "org.sikuli.ide.Sikulix",
+      "projectName": "sikulixide"
+    },
+    {
+      "type": "java",
+      "name": "Launch syntaxhighlight.Run",
+      "request": "launch",
+      "mainClass": "org.sikuli.support.ide.syntaxhighlight.Run",
+      "projectName": "sikulixide"
+    }
+  ]
+}
